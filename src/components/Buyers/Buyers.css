@@ -1,0 +1,13 @@
+.table-head__title {
+  cursor: pointer;
+}
+.table-head__title:hover {
+  background-color: rgb(216, 216, 216);
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+.card {
+  height: fit-content;
+}

@@ -1,0 +1,12 @@
+@media (min-width: 992px) { 
+  .navbar {
+    position: fixed !important;
+    height: 100%;
+  }
+}
+.navbar {
+  margin-bottom: 20px;
+}
+.btn {
+  width: fit-content;
+}
