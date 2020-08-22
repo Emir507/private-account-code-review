@@ -55,7 +55,7 @@ export default function Auth(props) {
 
   return (
     <div className="login-block">
-      <div className="login-block__container col-10">
+      <div className="login-block__container col-10 col-md-6 col-lg-4">
         <h4 className='text-center'>Имя пользователя GitHub</h4>
         {usernameError ? <small>Такой пользователь не найден</small> : ''}
         {passwordError ? <small>Введите правильный пароль</small> : ''}
